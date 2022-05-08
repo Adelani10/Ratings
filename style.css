@@ -1,0 +1,74 @@
+
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    /* width: 1440px; */
+    
+}
+.content{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-color: hsl(213, 19%, 18%);
+    color: hsl(0, 0%, 100%);
+    max-width: 350px;
+    width: 95%;
+    font-size: 15px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 40px;
+    font-family: 'Overpass',
+    sans-serif;
+    padding: 5px;
+}
+img{
+    display: block;
+    background-color: #fff;
+    width: ;
+    padding: 15px;
+    border-radius: 25px ;
+    margin: 15px 20px;
+    background-color: rgb(27, 34, 44);
+}
+h2{
+    margin: 12px 20px;
+}
+p{
+    margin: 10px 20px;
+    color: hsl(217, 12%, 63%);
+}
+.main-btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px 20px;
+}
+.btns{
+    color: hsl(217, 12%, 63%);
+    width: 14%;
+    padding: 15px;
+    border-radius: 100%;
+    border: none;
+    background-color: rgb(27, 34, 44);
+}
+.btns:hover{
+    background-color:hsl(217, 12%, 63%);
+    color: hsl(0, 0%, 100%);
+}
+.sub-btn{
+    color: hsl(0, 0%, 100%);;
+    background-color: hsl(25, 97%, 53%);
+    margin: 12px 20px;
+    margin-bottom: 15px;
+    padding:  15px;
+    border-radius: 25px;
+    border: none;
+}
+.sub-btn:hover{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(25, 97%, 53%);
+}
