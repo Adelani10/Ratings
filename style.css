@@ -15,32 +15,27 @@ body{
     color: hsl(0, 0%, 100%);
     max-width: 350px;
     width: 90%;
-    height: 47%;
     font-size: 15px;
     display: flex;
     flex-direction: column;
     border-radius: 40px;
     font-family: 'Overpass',
     sans-serif;
-    padding: 8px;
+    padding: 10px;
 }
 .second-container {
     background-color: hsl(213, 19%, 18%);
     color: hsl(0, 0%, 100%);
     max-width: 350px;
-    width: 90%;
-    height: 47%;
+    width: 80%;
     font-size: 15px;
     display: flex;
     flex-direction: column;
     border-radius: 40px;
     font-family: 'Overpass',
     sans-serif;
+    padding: 10px;
     display: none;
-    padding: 8px;
-    /* visibility: hidden; */
-
-
 }
 img{
     display: block;
@@ -48,14 +43,14 @@ img{
     width: ;
     padding: 15px;
     border-radius: 25px ;
-    margin: 15px 20px;
+    margin: 12px 20px;
     background-color: rgb(27, 34, 44);
 }
 h2{
     margin: 12px 20px;
 }
 p{
-    margin: 10px 20px;
+    margin: 12px 20px;
     color: hsl(217, 12%, 63%);
 }
 .main-btn{
@@ -67,8 +62,8 @@ p{
 }
 .btns{
     color: hsl(217, 12%, 63%);
-    width: 14%;
-    padding: 15px;
+    width: 48px;
+    height: 48px;
     border-radius: 100%;
     border: none;
     background-color: rgb(27, 34, 44);
@@ -81,7 +76,6 @@ p{
     color: hsl(0, 0%, 100%);
     background-color: hsl(25, 97%, 53%);
     margin: 12px 20px;
-    margin-bottom: 15px;
     padding:  15px;
     border-radius: 25px;
     border: none;
@@ -123,6 +117,9 @@ p{
 }
 @media (max-width:450px) {
     .container{
-        height: 375px;
+        height: auto;
+    }
+    .btns:hover {
+        background-color: hsl(25, 97%, 53%);
     }
 }
