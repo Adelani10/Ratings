@@ -1,15 +1,12 @@
 
-
+const digit = document.querySelector(".digit")
 const subBtn = document.querySelector(".sub-btn")
-const pickText = document.querySelector(".pick-text")
 const content = document.querySelector(".content")
 
 const qxt = document.querySelectorAll(".btns")
 
 const numArray = ["1", "2", "3", "4", "5"]
-for (let i = 0; i<numArray.length; i++){
-  
-}
+
 
 
 qxt.forEach(function(hello){
@@ -19,8 +16,10 @@ qxt.forEach(function(hello){
                 item.classList.remove("show-color")
             }
         })
-  
-    pickText.textContent = `You selected ${myText()} out of 5`
+
+
+    digit.style.color = "hsl(25, 97%, 53%)"
+    digit.textContent = `${myText()}`
 
   function myText(){
   if (hello.classList.contains("btn-1")){
@@ -42,9 +41,18 @@ qxt.forEach(function(hello){
 }
         hello.classList.toggle("show-color")
     })
+
+    subBtn.addEventListener("click", function(){
+
+  if (hello.classList.contains("show-color")){
+
+    content.classList.add("show-typage")
+  }
+  else{
+    
+  }
+})
 })
 
 
-subBtn.addEventListener("click", function(){
-  content.classList.add("show-typage")
-})
+

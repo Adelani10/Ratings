@@ -15,7 +15,7 @@ body{
     color: hsl(0, 0%, 100%);
     max-width: 350px;
     width: 90%;
-    height: 350px;
+    height: 47%;
     font-size: 15px;
     display: flex;
     flex-direction: column;
@@ -29,7 +29,7 @@ body{
     color: hsl(0, 0%, 100%);
     max-width: 350px;
     width: 90%;
-    height: 350px;
+    height: 47%;
     font-size: 15px;
     display: flex;
     flex-direction: column;
@@ -120,4 +120,9 @@ p{
 }
 .show-typage .container-1{
      display: none;
+}
+@media (max-width:450px) {
+    .container{
+        height: 375px;
+    }
 }
