@@ -62,8 +62,8 @@ p{
 }
 .btns{
     color: hsl(217, 12%, 63%);
-    width: 48px;
-    height: 48px;
+    width: 55px;
+    height: 55px;
     border-radius: 100%;
     border: none;
     background-color: rgb(27, 34, 44);
@@ -120,6 +120,6 @@ p{
         height: auto;
     }
     .btns:hover {
-        background-color: hsl(25, 97%, 53%);
+        background-color: transparent;
     }
 }
